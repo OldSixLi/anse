@@ -101,8 +101,8 @@ export default defineConfig({
       }
 
       ::-webkit-scrollbar {
-        width: 4px;
-        height: 4px;
+        width: 5px;
+        height: 10px;
       }
 
       ::-webkit-scrollbar-thumb {
@@ -111,6 +111,20 @@ export default defineConfig({
 
       ::-webkit-scrollbar-thumb:hover {
         background-color: var(--c-scroll-hover);
+      }
+
+      ::-webkit-scrollbar-track,
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 0.3rem rgb(79, 78, 78);
+        border-radius: 40px;
+      }
+
+      ::-webkit-scrollbar-thumb,
+      ::-webkit-scrollbar-thumb {
+        box-shadow: inset 0 0 0.5rem rgb(116, 116, 116);
+        background-color: rgba(25, 43, 206, 0.2);
+        outline: none;
+        border-radius: 40px;
       }
 
       ::selection {

@@ -10,7 +10,7 @@ export default () => {
   return (
     <div class="fcc h-full">
       <div class="flex flex-col gap-4 w-full max-w-md mx-12 sm:mx-18 overflow-hidden">
-        <div class="px-6 py-4 bg-base-100 border border-base rounded-lg">
+        <div class="px-6 py-4 bg-base-100 border border-base rounded-lg transparent-back">
           <h2 class="text-xs op-30 uppercase my-2">{t('conversations.recent')}</h2>
           <div class="flex flex-col items-start">
             <For each={$conversationMapSortList().slice(0, 3)}>
@@ -27,7 +27,7 @@ export default () => {
           </div>
         </div>
         <div
-          class="fcc gap-2 p-6 bg-base-100 hv-base border border-base rounded-lg"
+          class="fcc gap-2 p-6 bg-base-100 hv-base border border-base rounded-lg transparent-back"
           onClick={() => addConversation()}
         >
           <div class="i-carbon-add" />

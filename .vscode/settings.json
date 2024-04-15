@@ -1,6 +1,6 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.formatOnSave": false,
   "eslint.validate": [
@@ -13,5 +13,24 @@
   "i18n-ally.localesPaths": [
     "src/locale",
     "src/locale/lang"
-  ]
+  ],
+  "eslint.enable": true,
+  "standard.enable": false,
+  "tslint.enable": false,
+  "eslint.format.enable": true,
+  "eslint.debug": true,
+  "vetur.format.options.useTabs": true,
+  "vetur.format.scriptInitialIndent": true,
+  "eslint.rules.customizations": [],
+  "eslint.alwaysShowStatus": true,
+  // 关闭默认格式化html内容
+  "html.format.enable": false,
+  "path-autocomplete.pathMappings": {
+    "@": "${folder}/src", // alias for /test
+    "@views": "${folder}/src/newviews", // alias for /test
+  },
+  "editor.copyWithSyntaxHighlighting": false,
+  "git.ignoreLimitWarning": true,
+  "typescript.validate.enable": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

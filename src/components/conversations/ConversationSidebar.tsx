@@ -10,7 +10,14 @@ export default () => {
   const $conversationMapSortList = useStore(conversationMapSortList)
 
   return (
-    <div class="h-full flex flex-col bg-sidebar">
+    <div
+      class="h-full flex flex-col bg-sidebar"
+      style={{
+        background: 'transparent',
+        color: '#fff',
+      }}
+    >
+      {/* <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/37e5ccfa-f9ee-458b-afa2-dcd85b495e4e" alt="" srcset="" /> */}
       <header class="h-14 fi justify-between px-4 text-xs uppercase">
         <p class="px-2">{t('conversations.title')}</p>
         <div class="fi gap-1">

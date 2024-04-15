@@ -15,7 +15,7 @@ export default () => {
     })
   })
   return (
-    <header onDblClick={scrollController().scrollToTop} class="shrink-0 absolute top-0 left-0 right-0 fi justify-between border-b border-base h-14 px-4">
+    <header style={{ 'padding-right': '2rem' }} onDblClick={scrollController().scrollToTop} class="shrink-0 absolute top-0 left-0 right-0 fi justify-between border-b border-base h-14 px-4">
       <div class="fi overflow-hidden">
         <div
           class="fcc p-2 rounded-md text-xl hv-foreground md:hidden"

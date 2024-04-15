@@ -17,7 +17,7 @@ export default () => {
   }
 
   return (
-    <div class="h-full flex flex-col bg-sidebar">
+    <div class="h-full flex flex-col bg-sidebar transparent-back">
       <header class="h-14 fi border-b border-base px-4 text-xs uppercase">
         {t('settings.title')}
       </header>
@@ -36,7 +36,7 @@ export default () => {
           )}
         </For>
       </main>
-      <footer class="h-14 fi justify-between px-3">
+      {/* <footer class="h-14 fi justify-between px-3">
         <ThemeToggle />
         <div text-xs op-40 px-2>
           <a href="https://docs.anse.app" target="_blank" rel="noreferrer" class="hv-foreground">
@@ -47,7 +47,7 @@ export default () => {
             {t('github')}
           </a>
         </div>
-      </footer>
+      </footer> */}
     </div>
   )
 }

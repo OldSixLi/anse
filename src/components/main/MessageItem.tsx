@@ -108,6 +108,7 @@ export default (props: Props) => {
 
   return (
     <div
+      style={{ background: 'transparent' }}
       class="p-6 break-words group relative bg-base"
       classList={{
         'bg-base-100': props.message.role === 'user',

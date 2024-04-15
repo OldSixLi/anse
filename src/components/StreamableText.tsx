@@ -46,7 +46,8 @@ export default (props: Props) => {
 
   return (
     <Markdown
-      class={`prose prose-neutral dark:prose-invert fg-base! max-w-3xl ${props.class ?? ''}`}
+      class={`prose prose-neutral dark:prose-invert fg-base! max-w-3xl white-color ${props.class ?? ''}`}
+      style={{ color: '#fff !important' }}
       text={localText()}
       showRawCode={props.showRawCode}
     />

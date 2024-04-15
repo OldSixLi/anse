@@ -11,6 +11,7 @@ interface Props {
   value: Accessor<string>
   setValue: (v: string) => void
 }
+console.log('开始切换22 ')
 
 export default ({ settings, editing, value, setValue }: Props) => {
   if (!settings.name || !settings.type) return null
